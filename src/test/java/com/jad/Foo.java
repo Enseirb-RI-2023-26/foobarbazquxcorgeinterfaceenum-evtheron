@@ -15,6 +15,7 @@ public class Foo implements IFoo {
         this.qux = new Qux();
     }
 
+    @Override
     public void addBar(IBar bar) {
         this.bars.add(bar);
     }
